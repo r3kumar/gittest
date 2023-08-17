@@ -1,0 +1,55 @@
+git commands
+
+1. **Getting & Creating Projects**
+   - `git init`: Initialize a local Git repository.
+   - `git clone [url]`: Clone (or download) a repository from an existing URL.
+
+2. **Basic Snapshotting**
+   - `git status`: Check the status of your files.
+   - `git add [file-name]`: Add a file to the staging area.
+   - `git add .`: Add all changes in the working directory to the staging area.
+   - `git commit -m "[commit message]"`: Commit the staged changes.
+
+3. **Branching & Merging**
+   - `git branch`: List all local branches.
+   - `git branch [branch-name]`: Create a new branch.
+   - `git checkout [branch-name]`: Switch to a branch.
+   - `git checkout -b [branch-name]`: Create and switch to a new branch.
+   - `git merge [branch-name]`: Merge a branch into the active branch.
+
+4. **Sharing & Updating Projects**
+   - `git push [alias] [branch]`: Push a branch to your remote repository.
+   - `git pull`: Update your current local working branch with all new commits from the corresponding remote branch.
+
+5. **Inspection & Comparison**
+   - `git log`: View changes.
+   - `git diff`: View changes that aren't added to the staging area yet.
+   - `git diff --staged`: View changes that are staged.
+
+6. **Stashing & Cleaning**
+   - `git stash`: Stash changes in a dirty working directory.
+   - `git stash pop`: Apply stashed changes.
+   - `git clean`: Clean up untracked files.
+
+7. **Tagging**
+   - `git tag`: Used to give meaningful names to specific versions in the history.
+
+8. **Advanced Git**
+   - `git rebase`: Reapply commits on top of another base tip.
+   - `git cherry-pick`: Apply changes from a specific commit.
+   - `git revert`: Reverse a commit.
+   - `git fetch`: Fetch changes from the remote repository without merging them.
+
+9. **Undoing Commits**
+   - `git reset`: Reset your HEAD pointer to a previous commit and optionally reset the staging area and working directory as well.
+   
+10. **Remote Repositories**
+   - `git remote add [alias] [url]`: Add a git URL as an alias.
+   - `git remote rm [alias]`: Remove a remote alias.
+   - `git remote -v`: View all remotes.
+
+11. **Miscellaneous**
+   - `git config`: Git configuration settings, like setting a username, email, etc.
+   - `git help [command]`: Get help for a git command.
+
+Remember, for detailed usage of each command or to see more commands, you can always use the `git help [command]` or `man git-[command]` (if on a UNIX system).
